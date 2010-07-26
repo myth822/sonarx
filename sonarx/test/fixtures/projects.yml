@@ -1,0 +1,61 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+project_one:
+  id: <%= Fixtures.identify(:project_one) %>
+  name: Project1NameString
+  description: Project1DescriptionString
+  enabled: false
+  category: Project1CategoryString
+  address: Project1AddressString
+  username: Project1UsernameString
+  password: Project1PasswordString
+  version: Project1VersionString
+  branch: Project1BranchString
+  db_name: Project1DbNameString
+  db_connection: Project1DbConnectionString
+  project_group_id: <%= Fixtures.identify(:project_group_one) %>
+
+project_two:
+  id: <%= Fixtures.identify(:project_two) %>
+  name: Project2NameString
+  description: Project2DescriptionString
+  enabled: false
+  category: Project2CategoryString
+  address: Project2AddressString
+  username: Project2UsernameString
+  password: Project2PasswordString
+  version: Project2VersionString
+  branch: Project2BranchString
+  db_name: Project2DbNameString
+  db_connection: Project2DbConnectionString
+  project_group_id: <%= Fixtures.identify(:project_group_two) %>
+
+project_three:
+  id: <%= Fixtures.identify(:project_three) %>
+  name: Project3NameString
+  description: Project3DescriptionString
+  enabled: false
+  category: Project3CategoryString
+  address: Project3AddressString
+  username: Project3UsernameString
+  password: Project3PasswordString
+  version: Project3VersionString
+  branch: Project3BranchString
+  db_name: Project3DbNameString
+  db_connection: Project3DbConnectionString
+  project_group_id: <%= Fixtures.identify(:project_group_three) %>
+
+project_four:
+  id: <%= Fixtures.identify(:project_four) %>
+  name: Project4NameString
+  description: Project4DescriptionString
+  enabled: false
+  category: Project4CategoryString
+  address: Project4AddressString
+  username: Project4UsernameString
+  password: Project4PasswordString
+  version: Project4VersionString
+  branch: Project4BranchString
+  db_name: Project4DbNameString
+  db_connection: Project4DbConnectionString
+  project_group_id: <%= Fixtures.identify(:project_group_four) %>

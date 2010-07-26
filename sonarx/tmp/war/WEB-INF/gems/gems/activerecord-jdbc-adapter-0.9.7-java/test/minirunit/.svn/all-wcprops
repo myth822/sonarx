@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit
+END
+testHsqldb.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit/testHsqldb.rb
+END
+testMysql.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit/testMysql.rb
+END
+testConnect.rb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit/testConnect.rb
+END
+testH2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit/testH2.rb
+END
+testRawSelect.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit/testRawSelect.rb
+END
+testLoadActiveRecord.rb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit/testLoadActiveRecord.rb
+END

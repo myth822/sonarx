@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test
+END
+derby_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/derby_simple_test.rb
+END
+mysql_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mysql_simple_test.rb
+END
+oracle_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/oracle_simple_test.rb
+END
+minirunit.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/minirunit.rb
+END
+postgres_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/postgres_simple_test.rb
+END
+mysql_info_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mysql_info_test.rb
+END
+db2_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/db2_simple_test.rb
+END
+jndi_callbacks_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/jndi_callbacks_test.rb
+END
+jndi_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/jndi_test.rb
+END
+postgres_schema_search_path_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/postgres_schema_search_path_test.rb
+END
+simple.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/simple.rb
+END
+abstract_db_create.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/abstract_db_create.rb
+END
+mssql_multibyte_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mssql_multibyte_test.rb
+END
+sqlite3_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/sqlite3_simple_test.rb
+END
+postgres_db_create_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/postgres_db_create_test.rb
+END
+has_many_through.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/has_many_through.rb
+END
+mysql_multibyte_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mysql_multibyte_test.rb
+END
+mssql_limit_offset_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mssql_limit_offset_test.rb
+END
+manualTestDatabase.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/manualTestDatabase.rb
+END
+derby_multibyte_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/derby_multibyte_test.rb
+END
+postgres_reserved_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/postgres_reserved_test.rb
+END
+mssql_legacy_types_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mssql_legacy_types_test.rb
+END
+mysql_nonstandard_primary_key_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mysql_nonstandard_primary_key_test.rb
+END
+jdbc_common.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/jdbc_common.rb
+END
+derby_migration_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/derby_migration_test.rb
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/helper.rb
+END
+postgres_nonseq_pkey_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/postgres_nonseq_pkey_test.rb
+END
+h2_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/h2_simple_test.rb
+END
+cachedb_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/cachedb_simple_test.rb
+END
+sybase_jtds_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/sybase_jtds_simple_test.rb
+END
+pick_rails_version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/pick_rails_version.rb
+END
+hsqldb_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/hsqldb_simple_test.rb
+END
+mssql_db_create_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mssql_db_create_test.rb
+END
+postgres_mixed_case_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/postgres_mixed_case_test.rb
+END
+mssql_identity_insert_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mssql_identity_insert_test.rb
+END
+mysql_db_create_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mysql_db_create_test.rb
+END
+informix_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/informix_simple_test.rb
+END
+mssql_simple_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/mssql_simple_test.rb
+END
+generic_jdbc_connection_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/generic_jdbc_connection_test.rb
+END

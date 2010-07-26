@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/lib/warbler
+END
+task.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/lib/warbler/task.rb
+END
+config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/lib/warbler/config.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/lib/warbler/version.rb
+END
+gems.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/lib/warbler/gems.rb
+END

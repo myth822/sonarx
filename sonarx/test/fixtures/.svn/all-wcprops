@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sonarx/!svn/ver/44/trunk/source/sonarx/test/fixtures
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sonarx/!svn/ver/26/trunk/source/sonarx/test/fixtures/users.yml
+END
+project_groups.yml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sonarx/!svn/ver/44/trunk/source/sonarx/test/fixtures/project_groups.yml
+END
+tasks.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/fixtures/tasks.yml
+END
+notes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/fixtures/notes.yml
+END
+projects.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sonarx/!svn/ver/44/trunk/source/sonarx/test/fixtures/projects.yml
+END
+locations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/fixtures/locations.yml
+END

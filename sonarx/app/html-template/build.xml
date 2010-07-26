@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project" default="project.build.all" basedir=".">
+    <!--
+    Environment Settings
+
+    Properties
+
+    flex.sdk.home : FLEX sdk home directory
+    build.dir : Project output
+    src.dir : Project sources
+    output.file.extension : Output project file extension (swc/swf)
+    project.flex.conf : Compiler configuration xml file
+    mainclass.name : Main class
+    -->
+    <property name="build.dir" location="../../public/bin" />
+    <property name="project.name" value="Sonarx" />
+    <property name="mainclass.file" value="Sonarx.mxml" />
+    <property name="flex.sdk.home" location="E:/toolkit/Adobe/Flex Builder 3 Plug-in/sdks/3.2.0" />
+    <property name="src.dir" location="."/>
+    <property name="lib.dir" value="lib" />
+    <condition property="output.file.extension" value="swc" else="swf">
+        <isset property="project.type.isComponent" />
+    </condition>
+    <taskdef resource="flexTasks.tasks"/>
+    <!--
+    Environment Settings
+
+    OS Settings :
+
+    os.Linux : Linux Environment
+    os.Windows : Windows Environment
+    os.Mac : Mac Environment
+    -->
+    <condition property="os.Linux">
+        <and>
+            <os family="unix" />
+            <not>
+                <os family="mac" />
+            </not>
+        </and>
+    </condition>
+    <condition property="os.Windows">
+        <os family="windows" />
+    </condition>
+    <condition property="os.Mac">
+        <os family="mac" />
+    </condition>
+
+    <!--
+    Public Targets
+    -->
+    <target
+        name="init"
+        depends="-init.win, -init.unix, -init.mac"
+        description="Init settings according current os"
+        />
+
+    <target
+        name="project.build.all"
+        depends="init" >
+        <antcall target="-mxmlc.run">
+            <param name="mxmlc.bin.file" location="${build.dir}/${project.name}.${output.file.extension}"/>
+            <param name="mxmlc.src.mainClass" location="${mainclass.file}"/>
+        </antcall>
+    </target>
+    <target
+        name="-install.FlashPlayer.Linux"
+        if="os.Linux" >
+        <untar
+            src="${flex.sdk.home}/runtimes/player/lnx/flashplayer.tar.gz"
+            dest="${flex.sdk.home}/bin"
+            compression="gzip"
+            />
+        <chmod
+            file="${flex.sdk.home}/bin/flashplayer"
+            perm="+x"
+            />
+    </target>
+    <target 
+        name="-install.FlashPlayer.Windows"
+        if="os.Windows" >
+        <copy
+            file="${flex.sdk.home}/runtimes/player/win/FlashPlayer.exe"
+            todir="${flex.sdk.home}/bin"
+            />
+    </target>
+    <target
+        name="-install.FlashPlayer.Mac"
+        if="os.Mac" >
+        <!--echo>Install FlashPlayer from ${flex.sdk.home}/runtimes/player/mac</echo-->
+        <unzip
+            src="${flex.sdk.home}/runtimes/player/mac/Flash Player.app.zip"
+            dest="${flex.sdk.home}/runtimes/player/mac"
+            />
+        <chmod
+            file="${flex.sdk.home}/runtimes/player/mac/Flash Player.app/Contents/MacOS/Flash Player"
+            perm="+x"
+            />
+    </target>
+    <target
+        name="-mxmlc.run"
+        depends="init, -mxmlc.config.run"
+        />
+    <target
+        name="-mxmlc.config.run"
+        depends="-mxmlc.run.check"
+        if="mxmlc.run.ok"
+        >
+            <exec dir="${flex.sdk.home}/bin" executable="${flex.compilo.app}" failonerror="true">
+                <arg line="-compiler.library-path+='E:/sourceCode/sonarx/trunk/source/sonarx/lib/restfulx-1.2.4.swc'"/>
+                <arg value="-output" />
+                <arg value="${mxmlc.bin.file}" />
+                <arg value="-file-specs" />
+                <arg value="${mxmlc.src.mainClass}" />
+            </exec>
+    </target>
+    <target
+        name="-mxmlc.run.check"
+        description="Check if you can launch mxmlc compilator"
+        >
+        <condition property="mxmlc.run.ok">
+            <and>
+                <length string="${mxmlc.bin.file}" trim="true" when="greater" length="0"/>
+                <length string="${mxmlc.src.mainClass}" trim="true" when="greater" length="0"/>
+                <not>
+                    <isset property="project.type.isComponent" />
+                </not>
+            </and>
+        </condition>
+    </target>
+    <target
+        name="-init.win"
+        if="os.Windows" >
+        <property name="flex.compilo.comp" location="${flex.sdk.home}/bin/compc.exe" />
+        <property name="flex.compilo.app" location="${flex.sdk.home}/bin/mxmlc.exe" />
+        <property name="flex.player" location="${flex.sdk.home}/bin/flashplayer.exe" />
+    </target>
+    <target
+        name="-init.unix"
+        if="os.Linux" >
+        <property name="flex.compilo.comp" location="${flex.sdk.home}/bin/compc" />
+        <property name="flex.compilo.app" location="${flex.sdk.home}/bin/mxmlc" />
+        <property name="flex.player" location="${flex.sdk.home}/bin/flashplayer" />
+    </target>
+    <target
+        name="-init.mac"
+        if="os.Mac" >
+        <property name="flex.compilo.comp" location="${flex.sdk.home}/bin/compc" />
+        <property name="flex.compilo.app" location="${flex.sdk.home}/bin/mxmlc" />
+        <property name="flex.player" location="${flex.sdk.home}/runtimes/player/mac/Flash Player.app/Contents/MacOS/Flash Player" />
+    </target>
+</project>
+

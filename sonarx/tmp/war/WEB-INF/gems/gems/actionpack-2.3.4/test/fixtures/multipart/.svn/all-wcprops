@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart
+END
+none
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/none
+END
+hello.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/hello.txt
+END
+mona_lisa.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/mona_lisa.jpg
+END
+single_parameter
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/single_parameter
+END
+boundary_problem_file
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/boundary_problem_file
+END
+binary_file
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/binary_file
+END
+text_file
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/text_file
+END
+bracketed_param
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/bracketed_param
+END
+mixed_files
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/mixed_files
+END
+large_text_file
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/large_text_file
+END
+empty
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/multipart/empty
+END

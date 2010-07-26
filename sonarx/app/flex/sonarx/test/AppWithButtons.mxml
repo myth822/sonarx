@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   skinClass="sonarx.skins.AppSkinComplete">
+	<s:layout>
+		<s:VerticalLayout paddingTop="20" horizontalAlign="center"/>
+	</s:layout>
+	<s:Button label="Button 1" skinClass="sonarx.skins.ButtonCostomSkin"/>
+	<s:Button label="Button 2"/>
+	<s:Button label="Button 3"/>
+	<s:Button label="Button 4"/>
+</s:Application>

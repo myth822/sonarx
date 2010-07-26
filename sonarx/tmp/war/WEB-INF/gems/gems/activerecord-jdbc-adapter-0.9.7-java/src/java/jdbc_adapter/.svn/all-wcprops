@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter
+END
+JdbcAdapterInternalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/JdbcAdapterInternalService.java
+END
+JdbcDerbySpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/JdbcDerbySpec.java
+END
+JdbcMySQLSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/JdbcMySQLSpec.java
+END
+MssqlRubyJdbcConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/MssqlRubyJdbcConnection.java
+END
+RubyJdbcConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/RubyJdbcConnection.java
+END
+Sqlite3RubyJdbcConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/Sqlite3RubyJdbcConnection.java
+END
+JdbcConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/JdbcConnectionFactory.java
+END
+SQLBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/SQLBlock.java
+END
+PostgresRubyJdbcConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/src/java/jdbc_adapter/PostgresRubyJdbcConnection.java
+END

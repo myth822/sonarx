@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<mx:Label xmlns:mx="library://ns.adobe.com/flex/mx"
+		  xmlns:fx="http://ns.adobe.com/mxml/2009"
+		  textAlign="center">
+	<fx:Script>
+		<![CDATA[
+			import flash.display.Loader;
+			import flash.net.URLRequest;
+			private var _rate:String = "";
+			private var _num:Number;
+			override public function set data(value:Object):void
+			{
+				// Calculate the difference.
+				var diff:Number =
+					Number(value["coverage"]);
+				// If Estimate was greater than Actual,
+				// display results in red.
+				_rate = String(value["cr"]);
+				_num = diff;
+				var group:String = String(value["name"]);
+				if (diff > 30) {
+					setStyle("color", "red");
+				} else {
+					setStyle("color", "black");
+				}
+				text = diff + "%";
+			}
+			
+			override protected function updateDisplayList(unscaledWidth:Number,
+														  unscaledHeight:Number):void
+			{
+				var _loader:Loader=new Loader();
+				var l:Object = getChildAt(0);
+				if (l is Loader) {
+					_loader = Loader(l);
+				}
+				if (_rate == "L") {
+					_loader.unload();
+					_loader.load(new URLRequest("sonarx/assets/arrow-green-small.png"));
+					addChild(_loader);
+					_loader.x=80;
+					setChildIndex(_loader, 0);
+				} else if (_rate == "H") {
+					_loader.unload();
+					_loader.load(new URLRequest("sonarx/assets/arrow-red-small.png"));
+					addChild(_loader);
+					_loader.x=80;
+					setChildIndex(_loader, 0);
+				} else if (_rate == "") {
+					
+				} else {
+					_loader.unload();
+				}
+				_rate = ""
+			}
+		]]>
+	</fx:Script>
+</mx:Label> 

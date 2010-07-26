@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sonarx/!svn/ver/45/trunk/source/sonarx/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sonarx/!svn/ver/45/trunk/source/sonarx/log/development.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/log/server.log
+END

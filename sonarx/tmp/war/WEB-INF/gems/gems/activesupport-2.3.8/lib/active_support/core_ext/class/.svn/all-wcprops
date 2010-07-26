@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activesupport-2.3.8/lib/active_support/core_ext/class
+END
+removal.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activesupport-2.3.8/lib/active_support/core_ext/class/removal.rb
+END
+attribute_accessors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activesupport-2.3.8/lib/active_support/core_ext/class/attribute_accessors.rb
+END
+delegating_attributes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activesupport-2.3.8/lib/active_support/core_ext/class/delegating_attributes.rb
+END
+inheritable_attributes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activesupport-2.3.8/lib/active_support/core_ext/class/inheritable_attributes.rb
+END

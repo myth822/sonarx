@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/fixtures
+END
+beast.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/fixtures/beast.rb
+END
+customer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/fixtures/customer.rb
+END
+proxy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/fixtures/proxy.rb
+END
+person.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/fixtures/person.rb
+END
+street_address.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/fixtures/street_address.rb
+END

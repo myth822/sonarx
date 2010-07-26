@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark">
+	<fx:Script>
+		<![CDATA[
+			import sonarx.skins.AppSkinComplete;
+			protected var oldSkin:Class;
+			protected function clickHandler(event:MouseEvent):void
+			{
+				if (oldSkin == null)
+				{
+					oldSkin = this.getStyle("skinClass") as Class;
+					this.setStyle("skinClass", AppSkinComplete);
+					skinButton.label = "Load Original Skin";
+				}
+				else
+				{
+					this.setStyle("skinClass", oldSkin);
+					oldSkin = null;
+					skinButton.label = "Load Custom Skin";
+				}
+			}
+		]]>
+	</fx:Script>
+	<s:Label text="My Skinned Application" top="20" horizontalCenter="0"
+			 fontSize="36"/>
+	<s:Button id="skinButton" label="Load Custom Skin"
+			  click="clickHandler(event)"
+			  top="100" horizontalCenter="0"/>
+</s:Application>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+xmlns:s="library://ns.adobe.com/flex/spark"
+xmlns:mx="library://ns.adobe.com/flex/mx"
+skinClass="sonarx.skins.AppSkinComplete">
+<s:Label text="My Skinned Application" top="20" horizontalCenter="0"
+fontSize="36"/>
+</s:Application>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+xmlns:s="library://ns.adobe.com/flex/spark"
+xmlns:mx="library://ns.adobe.com/flex/mx">
+<fx:Style>
+@namespace s “library://ns.adobe.com/flex/spark";
+@namespace mx “library://ns.adobe.com/flex/mx “;
+s|Application
+{
+skinClass:ClassReference(“skins.CustomAppSkinComplete");
+}
+</fx:Style>
+<s:Label text="My Skinned Application" top="20" horizontalCenter="0"
+fontSize="36"/>
+</s:Application>
+
+this.setStyle(“skinClass", skins.CustomAppSkinComplete);
+var currentSkin:Class = this.getStyle(“skinClass") as Class;
+-->

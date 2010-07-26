@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching
+END
+html_fragment_cached_with_partial.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/html_fragment_cached_with_partial.html.erb
+END
+_partial.erb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/_partial.erb
+END
+inline_fragment_cached.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/inline_fragment_cached.html.erb
+END
+formatted_fragment_cached.xml.builder
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/formatted_fragment_cached.xml.builder
+END
+fragment_cached.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/fragment_cached.html.erb
+END
+js_fragment_cached_with_partial.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/js_fragment_cached_with_partial.js.rjs
+END
+formatted_fragment_cached.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/formatted_fragment_cached.js.rjs
+END
+formatted_fragment_cached.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/functional_caching/formatted_fragment_cached.html.erb
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/contrib
+END
+publisher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/contrib/publisher.rb
+END
+sys.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/contrib/sys.rb
+END
+compositepublisher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/contrib/compositepublisher.rb
+END
+rubyforgepublisher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/contrib/rubyforgepublisher.rb
+END
+ftptools.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/contrib/ftptools.rb
+END
+sshpublisher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/contrib/sshpublisher.rb
+END

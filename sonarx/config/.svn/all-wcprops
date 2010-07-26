@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sonarx/!svn/ver/26/trunk/source/sonarx/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sonarx/!svn/ver/26/trunk/source/sonarx/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/config/environment.rb
+END
+restfulx.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/config/restfulx.yml
+END
+warble.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sonarx/!svn/ver/16/trunk/source/sonarx/config/warble.rb
+END

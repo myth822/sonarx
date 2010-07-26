@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<mx:Application xmlns:mx="library://ns.adobe.com/flex/mx"
+				xmlns:fx="http://ns.adobe.com/mxml/2009" >
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import flash.events.KeyboardEvent;
+			import flash.system.System;
+			[Bindable]
+			private var dpADG:ArrayCollection = new ArrayCollection([
+				{Artist:'Pavement', Album:'Slanted and Enchanted', Price:12.99},
+				{Artist:'Pavement', Album:'Brighten the Corners', Price:13.99},
+				{Artist:'Saner', Album:'A Child Once', Price:14.99},
+				{Artist:'Saner', Album:'Helium Wings', Price:12.99},
+				{Artist:'The Doors', Album:'The Doors', Price:10.99},
+				{Artist:'The Doors', Album:'Morrison Hotel', Price:12.99},
+				{Artist:'Grateful Dead', Album:'American Beauty', Price:11.99},
+				{Artist:'Grateful Dead', Album:'In the Dark', Price:17.99},
+				{Artist:'Grateful Dead', Album:'Shakedown Street', Price:13.99},
+				{Artist:'The Doors', Album:'Strange Days', Price:12.99},
+				{Artist:'The Doors', Album:'The Best of the Doors', Price:10.99}
+			]);
+			// Event handler to recognize when Ctrl-C is pressed,
+			// and copy the selected cells to the system clipboard.
+			private function myKeyUpHandler(event:KeyboardEvent):void
+			{
+				var keycode_c:uint = 67;
+				if (event.ctrlKey && event.keyCode == keycode_c)
+				{
+					// Separator used between Strings sent to clipboard
+					// to separate selected cells.
+					var separator:String = ",";
+					// The String sent to the clipboard
+					var dataString:String = "";
+					// Loop over the selectedCells property.
+					// Data in selectedCells is ordered so that
+					// the last selected cell is at the head of the list.
+					// Process the data in reverse so
+					// that it appears in the correct order in the clipboard.
+					var n:int = event.currentTarget.selectedCells.length;
+					for (var i:int = 0; i < n; i++)
+					{
+						var cell:Object = event.currentTarget.selectedCells[i];
+						// Get the row for the selected cell.
+						var data:Object =
+							event.currentTarget.dataProvider[cell.rowIndex];
+						// Get the name of the field for the selected cell.
+						var dataField:String =
+							event.currentTarget.columns[cell.columnIndex].dataField;
+						// Get the cell data using the field name.
+						dataString = data[dataField] + separator + dataString;
+					}
+					// Remove trailing separator.
+					dataString =
+						dataString.substr(0, dataString.length - separator.length);
+					// Write dataString to the clipboard.
+					System.setClipboard(dataString);
+				}
+			}
+		]]>
+	</fx:Script>
+	<mx:AdvancedDataGrid width="100%" height="100%"
+						 dataProvider="{dpADG}"
+						 selectionMode="multipleCells"
+						 allowMultipleSelection="true"
+						 keyUp="myKeyUpHandler(event);">
+		<mx:columns>
+			<mx:AdvancedDataGridColumn dataField="Artist"/>
+			<mx:AdvancedDataGridColumn dataField="Album"/>
+			<mx:AdvancedDataGridColumn dataField="Price"/>
+		</mx:columns>
+	</mx:AdvancedDataGrid>
+	<mx:TextArea id="myTA"/>
+</mx:Application>

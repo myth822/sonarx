@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib
+END
+jdbc_adapter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter.rb
+END
+pg.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/pg.rb
+END
+activerecord-jdbc-adapter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/activerecord-jdbc-adapter.rb
+END

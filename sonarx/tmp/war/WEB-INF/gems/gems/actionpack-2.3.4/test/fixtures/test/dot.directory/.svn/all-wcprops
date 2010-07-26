@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/test/dot.directory
+END
+render_file_with_ivar.erb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionpack-2.3.4/test/fixtures/test/dot.directory/render_file_with_ivar.erb
+END

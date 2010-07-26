@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx">
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			
+			[Bindable]
+			private var dpFlat:ArrayCollection = new ArrayCollection([
+				{gourp:"CDC2", name:"Sonarx", type:"Ant", 
+					success:20, warning:1, failure:2},
+				{gourp:"CDC2", name:"Anyframe", type:"Maven", 
+					success:32, warning:2, failure:5},
+				{gourp:"CDC3", name:"Hibernate", type:"Ant", 
+					success:22, warning:1, failure:0},
+				{gourp:"CDC3", name:"Struts2", type:"Maven", 
+					success:17, warning:0, failure:2}
+			]);
+			
+			private function itemToDataTip(item:Object):String
+			{
+				return "Success Build";
+			}
+		]]>
+	</fx:Script>
+	<s:layout>
+		<s:BasicLayout/>
+	</s:layout>
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<mx:AdvancedDataGrid id="myADG" width="100%" height="100%" color="0x323232" initialize="gc.refresh();" defaultLeafIcon="{null}">        
+		<mx:dataProvider>
+			<mx:GroupingCollection2 id="gc" source="{dpFlat}">
+				<mx:Grouping>
+					<mx:GroupingField name="gourp">
+						<mx:summaries>
+							<mx:SummaryRow summaryPlacement="group">
+								<mx:fields>
+									<mx:SummaryField2 dataField="success" summaryOperation="SUM"/>
+									<mx:SummaryField2 dataField="warning" summaryOperation="SUM"/>
+									<mx:SummaryField2 dataField="failure" summaryOperation="SUM"/>
+								</mx:fields>
+							</mx:SummaryRow>
+						</mx:summaries>
+					</mx:GroupingField>
+				</mx:Grouping>
+			</mx:GroupingCollection2>
+		</mx:dataProvider>  
+		<mx:groupedColumns>
+			<mx:AdvancedDataGridColumn dataField="name" headerText="Project Name" width="300"/>
+			<mx:AdvancedDataGridColumn dataField="type" headerText="Project Type" width="300"/>
+			<mx:AdvancedDataGridColumnGroup headerText="Build Info">    
+				<mx:AdvancedDataGridColumn dataField="success" headerRenderer="sonarx.renderer.successRenderer" width="50" sortable="false"/>
+				<mx:AdvancedDataGridColumn dataField="warning" headerRenderer="sonarx.renderer.warningRenderer" width="50" sortable="false"/>
+				<mx:AdvancedDataGridColumn dataField="failure" headerRenderer="sonarx.renderer.failureRenderer" width="50" sortable="false"/>
+			</mx:AdvancedDataGridColumnGroup>    
+		</mx:groupedColumns>
+	</mx:AdvancedDataGrid>
+</s:Panel>

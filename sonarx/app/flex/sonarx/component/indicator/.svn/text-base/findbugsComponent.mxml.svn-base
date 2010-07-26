@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:BorderContainer xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 width="520" height="190"
+		 cornerRadius="2" borderWeight="1" 
+		 dropShadowVisible="true">
+	<fx:Declarations>
+		<fx:XMLList id="fd">
+			<warning>
+				<metric>High Priority Warnings</metric>
+				<total>1</total>
+				<density>0.95</density>
+			</warning>
+			<warning>
+				<metric>Medium Priority Warnings</metric>
+				<total>21</total>
+				<density>19.91</density>
+			</warning>
+			<warning>
+				<metric>Total Warnings</metric>
+				<total>22</total>
+				<density>20.85</density>
+			</warning>
+		</fx:XMLList>
+	</fx:Declarations>
+	<s:layout>
+		<s:VerticalLayout horizontalAlign="left" 
+							paddingLeft="10" paddingRight="10" 
+							paddingTop="10" paddingBottom="10"/>
+	</s:layout>
+	<s:VGroup width="90%">
+		<s:HGroup width="100%">
+			<s:Label text="Metrics" fontSize="16" fontWeight="bold"/>
+			<mx:Spacer width="96%"/>
+			<mx:Image source="@Embed('sonarx/assets/bugs_icon_24.png')"/>
+		</s:HGroup>
+		<s:Label text="1055 lines of code analyzed, in 57 classes, in 22 packages."/>
+		<mx:DataGrid id="dg" color="0x323232" width="95%" sortableColumns="false" rowCount="{fd.length()}" dataProvider="{fd}">
+			<mx:columns>
+				<mx:DataGridColumn dataField="metric" headerText="Metric" width="240"/>
+				<mx:DataGridColumn dataField="total" headerText="Total" width="60"/>
+				<mx:DataGridColumn dataField="density" headerText="Density*"/>
+			</mx:columns>
+		</mx:DataGrid>
+		<s:Label text="(* Defects per Thousand lines of non-commenting source statements)"/>
+	</s:VGroup>
+	
+</s:BorderContainer>

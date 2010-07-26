@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases
+END
+frontbase.yml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases/frontbase.yml
+END
+postgresql.yml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases/postgresql.yml
+END
+sqlite2.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases/sqlite2.yml
+END
+sqlite3.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases/sqlite3.yml
+END
+mysql.yml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases/mysql.yml
+END
+oracle.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases/oracle.yml
+END
+ibm_db.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/configs/databases/ibm_db.yml
+END

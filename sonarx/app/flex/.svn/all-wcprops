@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sonarx/!svn/ver/47/trunk/source/sonarx/app/flex
+END
+Sonarx.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sonarx/!svn/ver/47/trunk/source/sonarx/app/flex/Sonarx.mxml
+END
+Sonarx-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sonarx/!svn/ver/16/trunk/source/sonarx/app/flex/Sonarx-config.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sonarx/!svn/ver/17/trunk/source/sonarx/app/flex/build.xml
+END

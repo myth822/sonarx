@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 width="100%" label="ProjectGroup"
+		 xmlns:rx="org.restfulx.components.rx.*">
+	<fx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			import mx.events.ValidationResultEvent;
+			import mx.validators.Validator;
+			
+			import org.restfulx.Rx;
+			import org.restfulx.utils.RxUtils;
+			
+			import sonarx.models.ProjectGroup;
+			import sonarx.utils.SonarxValidatorUtil;
+			
+			[Bindable]
+			private var projectGroup:ProjectGroup = new ProjectGroup();
+			
+			private function newProjectGroup():void {
+				projectGroup = new ProjectGroup();
+				projectGroupsList.selectedIndex = -1;
+			}
+			
+			private function saveProjectGroup():void {
+				if (! validateForm()) {
+					return;
+				}
+				updateModelProperties();
+				if (projectGroup.id) {
+					projectGroup.update({onSuccess: onProjectGroupUpdate});
+				} else {
+					projectGroup.create({onSuccess: onProjectGroupCreate});
+				}
+			}
+			
+			private function validateForm():Boolean {
+				if (! SonarxValidatorUtil.validateFormItem(gnv) 
+					|| ! SonarxValidatorUtil.validateFormItem(gmv) 
+					|| ! SonarxValidatorUtil.validateFormItem(dt)) {
+					return false;
+				}
+				return true;
+			}
+			
+			private function updateModelProperties():void {
+				projectGroup.groupName = groupNameTextInput.text;
+				projectGroup.groupMarking = groupMarkingTextInput.text;
+				projectGroup.description = descriptionTextArea.text;
+				
+			}
+			
+			private function destroyProjectGroup():void {
+				if (projectGroupsList.selectedItem.groupName == "Default") {
+					Alert.show("The Default Group can't be delete");
+					return;
+				}
+				projectGroup.destroy({onSuccess: onProjectGroupDestroy});
+			}
+			
+			private function onProjectGroupSelect():void {
+				if (projectGroupsList.selectedItem as ProjectGroup) {
+					projectGroup = RxUtils.clone(projectGroupsList.selectedItem) as ProjectGroup;
+				}else {
+					projectGroup = new ProjectGroup;
+				}
+			}
+			
+			private function onProjectGroupCreate(result:ProjectGroup):void {
+				projectGroup = new ProjectGroup;
+			}
+			
+			private function onProjectGroupUpdate(result:ProjectGroup):void {
+				projectGroupsList.selectedItem = result;
+				onProjectGroupSelect();
+			}
+			
+			private function onProjectGroupDestroy(result:ProjectGroup):void {
+				onProjectGroupCreate(result);
+			}    
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<mx:StringValidator id="gnv" source="{groupNameTextInput}" property="text" minLength="4" maxLength="40"/>
+		<mx:StringValidator id="gmv" source="{groupMarkingTextInput}" property="text" minLength="4" maxLength="40"/>
+		<mx:StringValidator id="dt" source="{descriptionTextArea}" property="text" minLength="4" maxLength="200"/>
+	</fx:Declarations>
+	
+	<s:Panel id="projectGroupsPanel"
+			 title="ProjectGroups" cornerRadius="0" 
+			 backgroundColor="#EEEEEE" width="70%" height="100%">
+		<!--
+		<mx:List id="projectGroupsList"
+		width="100%" height="100%"
+		dataProvider="{Rx.models.index(ProjectGroup)}"
+		change="onProjectGroupSelect()"/>
+		-->  
+		<s:layout>
+			<s:VerticalLayout horizontalAlign="left" 
+							  paddingLeft="10" paddingRight="10" 
+							  paddingTop="10" paddingBottom="10"/>
+		</s:layout>
+		<mx:DataGrid id="projectGroupsList" color="0x323232" width="95%"
+					 dataProvider="{Rx.models.index(ProjectGroup)}" height="100%"
+					 itemClick="onProjectGroupSelect()">
+			<mx:columns>
+				<mx:DataGridColumn dataField="groupName" headerText="Group Name"/>
+				<mx:DataGridColumn dataField="groupMarking" headerText="Group Marking"/>
+				<mx:DataGridColumn headerText="Create Date">
+					<mx:itemRenderer>
+						<fx:Component>
+							<s:MXAdvancedDataGridItemRenderer>
+								<fx:Declarations>
+									<mx:DateFormatter id="dateFormatter" formatString="YYYY-MM-DD JJ:NN:SS"/>
+								</fx:Declarations>
+								<s:Label id="lblData" top="5" left="5" right="0" bottom="0" text="{dateFormatter.format(data.createdAt)}" />
+							</s:MXAdvancedDataGridItemRenderer>
+						</fx:Component>
+					</mx:itemRenderer>
+				</mx:DataGridColumn>
+				<mx:DataGridColumn headerText="Update Date">
+					<mx:itemRenderer>
+						<fx:Component>
+							<s:MXAdvancedDataGridItemRenderer>
+								<fx:Declarations>
+									<mx:DateFormatter id="dateFormatter" formatString="YYYY-MM-DD JJ:NN:SS"/>
+								</fx:Declarations>
+								<s:Label id="lblData" top="5" left="5" right="0" bottom="0" text="{dateFormatter.format(data.updatedAt)}" />
+							</s:MXAdvancedDataGridItemRenderer>
+						</fx:Component>
+					</mx:itemRenderer>
+				</mx:DataGridColumn>
+			</mx:columns>
+		</mx:DataGrid>
+		<mx:Button label="New" click="newProjectGroup()" icon="@Embed(source='../../assets/new_icon_16.png')"/>
+	</s:Panel>
+	<s:Panel title="Edit ProjectGroup" cornerRadius="0" 
+			 backgroundColor="#EEEEEE" width="30%" height="100%">
+		<mx:Form width="100%" height="80%">
+			<mx:FormItem label="Group Name" width="100%">
+				<mx:TextInput id="groupNameTextInput" width="100%" text="{projectGroup.groupName}"/>
+			</mx:FormItem>
+			<mx:FormItem label="Group Making" width="100%">
+				<mx:TextInput id="groupMarkingTextInput" width="100%" text="{projectGroup.groupMarking}"/>
+			</mx:FormItem>
+			<mx:FormItem label="Description" width="100%">
+				<mx:TextArea id="descriptionTextArea" width="100%" height="200" text="{projectGroup.description}"/>
+			</mx:FormItem>
+			<s:HGroup>
+				<mx:Button label="Save" click="saveProjectGroup()" icon="@Embed(source='../../assets/save_icon_16.png')"/>
+				<mx:Button label="Delete" enabled="{RxUtils.canDeleteModel(projectGroup)}"
+						   click="destroyProjectGroup()" icon="@Embed(source='../../assets/delete_icon_16.png')"/>
+			</s:HGroup>
+		</mx:Form>
+	</s:Panel>
+</mx:HBox>

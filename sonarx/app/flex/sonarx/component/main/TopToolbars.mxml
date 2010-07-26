@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:SkinnableContainer xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					  xmlns:s="library://ns.adobe.com/flex/spark" 
+					  xmlns:mx="library://ns.adobe.com/flex/mx"
+					  skinClass="sonarx.skins.GroupSkinnableContainerSkin" 
+					  width="96%" height="5%">
+	<fx:Metadata>
+		[Event(name="homeClick", type="sonarx.events.HomeEvent")]
+	</fx:Metadata>
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.containers.HBox;
+			import mx.containers.ViewStack;
+			
+			import sonarx.events.HomeEvent;
+			protected function homeClickHandler(event:MouseEvent):void
+			{
+				var homeEvent:HomeEvent = new HomeEvent("homeClick");
+				dispatchEvent(homeEvent);
+			}
+		]]>
+	</fx:Script>
+
+	<s:HGroup id="mainHGroup" width="98%" verticalAlign="middle">
+		<s:Label text=" Current User: myth  (admin)"/>
+		<mx:LinkButton label="home" color="0x3380DD"
+					   textDecoration="underline" fontWeight="normal" 
+					   icon="@Embed('sonarx/assets/home_icon_16.png')" 
+					   click="homeClickHandler(event)"/>
+		<mx:LinkButton label="Edit Details" color="0x3380DD"
+					   textDecoration="underline" fontWeight="normal" icon="@Embed('sonarx/assets/detail_icon.png')" />
+		<mx:LinkButton label="logout" color="0x3380DD"
+					   textDecoration="underline" fontWeight="normal" icon="@Embed('sonarx/assets/arrow_icon_sm.png')" />
+		<mx:Spacer width="55%"/>
+		<mx:LinkButton icon="@Embed('sonarx/assets/print.gif')" width="31"/>
+		
+		<s:TextInput id="searchTxt" maxWidth="150" skinClass="sonarx.skins.IconTextInputSkin"/>
+	</s:HGroup>
+</s:SkinnableContainer>

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter
+END
+jdbc_informix.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_informix.rb
+END
+missing_functionality_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/missing_functionality_helper.rb
+END
+jdbc_mssql.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_mssql.rb
+END
+jdbc.rake
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc.rake
+END
+tsql_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/tsql_helper.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/version.rb
+END
+jdbc_oracle.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_oracle.rb
+END
+jdbc_mysql.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_mysql.rb
+END
+jdbc_derby.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_derby.rb
+END
+rake_tasks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/rake_tasks.rb
+END
+jdbc_db2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_db2.rb
+END
+railtie.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/railtie.rb
+END
+jdbc_mimer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_mimer.rb
+END
+jdbc_cachedb.rb
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_cachedb.rb
+END
+jdbc_hsqldb.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_hsqldb.rb
+END
+jdbc_postgre.rb
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_postgre.rb
+END
+jdbc_sqlite3.rb
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_sqlite3.rb
+END
+jdbc_adapter_internal.jar
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_adapter_internal.jar
+END
+jdbc_sybase.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_sybase.rb
+END
+jdbc_firebird.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/jdbc_adapter/jdbc_firebird.rb
+END

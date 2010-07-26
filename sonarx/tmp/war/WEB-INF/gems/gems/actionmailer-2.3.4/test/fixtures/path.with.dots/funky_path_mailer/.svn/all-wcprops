@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionmailer-2.3.4/test/fixtures/path.with.dots/funky_path_mailer
+END
+multipart_with_template_path_with_dots.erb
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionmailer-2.3.4/test/fixtures/path.with.dots/funky_path_mailer/multipart_with_template_path_with_dots.erb
+END

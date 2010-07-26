@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rack-1.0.0/test/multipart
+END
+none
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rack-1.0.0/test/multipart/none
+END
+nested
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rack-1.0.0/test/multipart/nested
+END
+binary
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rack-1.0.0/test/multipart/binary
+END
+text
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rack-1.0.0/test/multipart/text
+END
+ie
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rack-1.0.0/test/multipart/ie
+END
+empty
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rack-1.0.0/test/multipart/empty
+END

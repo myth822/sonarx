@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:VGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx">
+	<fx:Metadata>
+		[Event(name="leftMenuClick", type="sonarx.events.LeftMenuClickEvent")]
+	</fx:Metadata>
+	<fx:Script>
+		<![CDATA[
+			import mx.events.ItemClickEvent;
+			
+			import sonarx.events.LeftMenuClickEvent;
+			protected function leftmune_itemClickHandler(event:ItemClickEvent):void
+			{
+				var lmce:LeftMenuClickEvent = new LeftMenuClickEvent(event.target, "leftMenuClick");
+				dispatchEvent(lmce);
+			}
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<fx:Array id="projectArr">
+			<fx:Object label="Project Group" ico="@Embed('sonarx/assets/group_icon_16.png')" />
+			<fx:Object label="Multi Project" ico="@Embed('sonarx/assets/dimession_icon_16.png')"/>
+			<!--<fx:Object label="SVN Project" ico="@Embed('sonarx/assets/svn_icon_16.png')" /> -->
+		</fx:Array>
+		<fx:Array id="managementArr">
+			<fx:Object label="User" ico="@Embed('sonarx/assets/user_icon_16.png')" />
+			<fx:Object label="Plan" ico="@Embed('sonarx/assets/plan_icon_15_5.png')" />
+			<fx:Object label="Queue" ico="@Embed('sonarx/assets/queue_icon_16.png')" />
+			<fx:Object label="Setting" ico="@Embed('sonarx/assets/setting_icon_16.png')" />
+		</fx:Array>
+		<fx:Array id="toolArr">
+			<fx:Object label="Filters" ico="@Embed('sonarx/assets/filter_icon_16.png')" />
+			<fx:Object label="Integrate" ico="@Embed('sonarx/assets/build_icon_16.png')" />
+			<fx:Object label="Motion chart" ico="@Embed('sonarx/assets/chart_icon_16.png')" />
+			<fx:Object label="Radiator" ico="@Embed('sonarx/assets/radiator_icon_16.png')" />
+		</fx:Array>
+	</fx:Declarations>
+	
+	<s:Panel title="Project" width="100%" height="118"
+			 color="0x000000" 
+			 borderAlpha="0.15">
+		<s:layout>
+			<s:VerticalLayout paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10"/>
+		</s:layout>
+		<mx:LinkBar color="0x0050AA" horizontalAlign="left" direction="vertical" width="100%" height="64" fontWeight="bold" dataProvider="{projectArr}" borderColor="0xACACAC" borderStyle="solid" iconField="ico" itemClick="leftmune_itemClickHandler(event)"/>
+	</s:Panel>
+	<s:Panel title="Management" width="100%" height="185"
+			 color="0x000000" 
+			 borderAlpha="0.15">
+		<s:layout>
+			<s:VerticalLayout paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10"/>
+		</s:layout>
+		<mx:LinkBar color="0x0050AA" horizontalAlign="left" direction="vertical" width="100%" height="128" fontWeight="bold" dataProvider="{managementArr}" borderColor="0xACACAC" borderStyle="solid" iconField="ico" itemClick="leftmune_itemClickHandler(event)"/>
+	</s:Panel>
+	
+	<s:Panel title="Tools" width="100%" height="185"
+			 color="0x000000" 
+			 borderAlpha="0.15">
+		<s:layout>
+			<s:VerticalLayout paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10"/>
+		</s:layout>
+		<mx:LinkBar color="0x0050AA" horizontalAlign="left" direction="vertical" width="100%" height="128" fontWeight="bold" dataProvider="{toolArr}" borderColor="0xACACAC" borderStyle="solid" iconField="ico" itemClick="leftmune_itemClickHandler(event)"/>
+	</s:Panel>
+</s:VGroup>

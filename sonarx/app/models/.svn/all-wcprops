@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sonarx/!svn/ver/25/trunk/source/sonarx/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sonarx/!svn/ver/25/trunk/source/sonarx/app/models/user.rb
+END
+project_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sonarx/!svn/ver/25/trunk/source/sonarx/app/models/project_group.rb
+END
+project.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sonarx/!svn/ver/25/trunk/source/sonarx/app/models/project.rb
+END

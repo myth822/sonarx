@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rails_generators/rx_scaffold/templates
+END
+fixtures.yml.erb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rails_generators/rx_scaffold/templates/fixtures.yml.erb
+END
+helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rails_generators/rx_scaffold/templates/helper_test.rb
+END
+migration.rb.erb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rails_generators/rx_scaffold/templates/migration.rb.erb
+END
+functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rails_generators/rx_scaffold/templates/functional_test.rb
+END
+model.as.erb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rails_generators/rx_scaffold/templates/model.as.erb
+END
+model.rb.erb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rails_generators/rx_scaffold/templates/model.rb.erb
+END

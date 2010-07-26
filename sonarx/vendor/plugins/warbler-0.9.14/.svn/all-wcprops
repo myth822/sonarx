@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sonarx/!svn/ver/16/trunk/source/sonarx/vendor/plugins/warbler-0.9.14
+END
+History.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/History.txt
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/Rakefile
+END
+LICENSES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/LICENSES.txt
+END
+web.xml.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/web.xml.erb
+END
+Manifest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/Manifest.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/README.txt
+END

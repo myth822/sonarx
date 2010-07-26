@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx">
+	<fx:Metadata>
+		[Event(name="projectItemClick", type="sonarx.events.ProjectItemClickEvent")]
+	</fx:Metadata>
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.controls.*;
+			import mx.events.ListEvent;
+			
+			import sonarx.events.ProjectItemClickEvent;
+		
+			[Bindable]
+			private var dpFlat:ArrayCollection = new ArrayCollection([
+					{id:1, gourp:"CDC2", alert:"", name:"Sonarx", 
+					loc:61863, locr:"L", tdr:15.3, tdrr:"L",
+					coverage:11.5, cr:"H", ul:29706, ulr:"E",
+					dl:4.9, dlr:"H", bd:"2010-07-07"},
+					{id:2, gourp:"CDC2", alert:"", name:"Anyframe", 
+					loc:61863, locr:"L", tdr:25.3, tdrr:"H",
+					coverage:11.5, cr:"H", ul:29706, ulr:"E",
+					dl:4.9, dlr:"H", bd:"2010-07-07"},
+					{id:3, gourp:"CDC3", alert:"", name:"Hibernate", 
+					loc:61863, locr:"L", tdr:35.3, tdrr:"H",
+					coverage:11.5, cr:"H", ul:29706, ulr:"E",
+					dl:4.9, dlr:"H", bd:"2010-07-07"},
+					{id:4, gourp:"CDC3", alert:"", name:"Struts2", 
+					loc:61863, locr:"L", tdr:45.3, tdrr:"L",
+					coverage:11.5, cr:"H", ul:2906, ulr:"E",
+					dl:4.9, dlr:"H", bd:"2010-07-07"}
+				]);
+			
+			public function itemClick(e:ListEvent):void {
+				var pice:ProjectItemClickEvent = new ProjectItemClickEvent(e.target, "projectItemClick");
+				if ((e.target as AdvancedDataGrid).selectedItem["id"] == undefined) {
+					return;
+				}
+				dispatchEvent(pice);
+				//Alert.show((e.target as AdvancedDataGrid).selectedItem["id"]);
+			}
+		]]>
+	</fx:Script>
+	<s:layout>
+		<s:BasicLayout/>
+	</s:layout>
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<mx:AdvancedDataGrid id="myADG" width="100%" height="100%" color="0x323232" initialize="gc.refresh();" defaultLeafIcon="{null}" itemClick="itemClick(event)">        
+		<mx:dataProvider>
+			<mx:GroupingCollection2 id="gc" source="{dpFlat}">
+				<mx:Grouping>
+					<mx:GroupingField name="gourp">
+						<mx:summaries>
+							<mx:SummaryRow summaryPlacement="group">
+								<mx:fields>
+									<mx:SummaryField2 dataField="loc" summaryOperation="SUM"/>
+									<mx:SummaryField2 dataField="tdr" summaryOperation="AVG"/>
+									<mx:SummaryField2 dataField="coverage" summaryOperation="AVG"/>
+									<mx:SummaryField2 dataField="ul" summaryOperation="SUM"/>
+									<mx:SummaryField2 dataField="dl" summaryOperation="AVG"/>
+								</mx:fields>
+							</mx:SummaryRow>
+						</mx:summaries>
+					</mx:GroupingField>
+				</mx:Grouping>
+			</mx:GroupingCollection2>
+		</mx:dataProvider>        
+		
+		<mx:columns>
+			<mx:AdvancedDataGridColumn id="nametitle" dataField="name" headerText="Name"/>
+			<mx:AdvancedDataGridColumn id="loc" dataField="loc" headerText="Lines of code"/>
+			<mx:AdvancedDataGridColumn id="tdr" dataField="tdr" headerText="Technical Debt ratio"/>
+			<mx:AdvancedDataGridColumn id="coverage" dataField="coverage" headerText="Coverage"/>
+			<mx:AdvancedDataGridColumn dataField="ul" headerText="Uncovered lines"/>
+			<mx:AdvancedDataGridColumn id="dl" dataField="dl" headerText="Duplicated lines (%)"/>
+			<mx:AdvancedDataGridColumn dataField="bd" headerText="Build date"/>
+		</mx:columns>
+		
+		<mx:rendererProviders>
+			<mx:AdvancedDataGridRendererProvider column="{loc}" renderer="sonarx.renderer.locRenderer"/>
+			<mx:AdvancedDataGridRendererProvider column="{tdr}" renderer="sonarx.renderer.tdrRenderer"/>
+			<mx:AdvancedDataGridRendererProvider column="{coverage}" renderer="sonarx.renderer.coverageRenderer"/>
+			<mx:AdvancedDataGridRendererProvider column="{dl}" renderer="sonarx.renderer.dlRenderer"/>
+		</mx:rendererProviders>
+	</mx:AdvancedDataGrid>
+</s:Panel>

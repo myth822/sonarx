@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"  
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:c="sonarx.component.main.*" initialize="initializeHandler(event)">
+	<s:layout>
+		<s:VerticalLayout verticalAlign="middle" horizontalAlign="center" />
+	</s:layout>
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			import org.restfulx.Rx;
+			import sonarx.controllers.ApplicationController;
+
+			protected function initializeHandler(event:FlexEvent):void
+			{
+				ApplicationController.initialize();
+			}
+
+		]]>
+	</fx:Script>
+	
+	<c:TopToolbars height="5%" homeClick="this.main.mainViewStack.selectedChild = this.main.projectsContent"/>
+	<c:main id="main" height="92%" width="98%"/>
+	<s:HGroup id="bottom" height="3%" width="98%" horizontalAlign="center">
+		<s:Label text="Powered by Samsung - Open Source LGPL - v.2.2RC1 - Plugins - Documentation - Ask a question - Bug/feature request"/>
+	</s:HGroup>
+</s:Application>

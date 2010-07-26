@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/guides/images/i18n
+END
+demo_localized_pirate.png
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/guides/images/i18n/demo_localized_pirate.png
+END
+demo_translated_en.png
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/guides/images/i18n/demo_translated_en.png
+END
+demo_untranslated.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/guides/images/i18n/demo_untranslated.png
+END
+demo_translated_pirate.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/guides/images/i18n/demo_translated_pirate.png
+END
+demo_translation_missing.png
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/guides/images/i18n/demo_translation_missing.png
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionmailer-2.3.4/test/fixtures/explicit_layout_mailer
+END
+signup.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionmailer-2.3.4/test/fixtures/explicit_layout_mailer/signup.html.erb
+END
+logout.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/actionmailer-2.3.4/test/fixtures/explicit_layout_mailer/logout.html.erb
+END

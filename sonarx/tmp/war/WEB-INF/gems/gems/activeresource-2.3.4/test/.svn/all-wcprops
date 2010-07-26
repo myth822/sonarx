@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test
+END
+connection_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/connection_test.rb
+END
+authorization_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/authorization_test.rb
+END
+abstract_unit.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/abstract_unit.rb
+END
+debug.log
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/debug.log
+END
+base_errors_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/base_errors_test.rb
+END
+format_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/format_test.rb
+END
+base_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/base_test.rb
+END
+setter_trap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/test/setter_trap.rb
+END

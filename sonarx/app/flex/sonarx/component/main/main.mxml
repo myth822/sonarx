@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx"
+		  xmlns:c="sonarx.component.main.*"
+		  xmlns:i="sonarx.component.indicator.*"
+		  xmlns:g="sonarx.views.generated.*">
+	<fx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			import mx.controls.LinkBar;
+			import mx.core.INavigatorContent;
+			
+			import sonarx.events.LeftMenuClickEvent;
+			import sonarx.events.ProjectItemClickEvent;
+			import sonarx.utils.SonarxStringUtil;
+
+			protected function projectItemClickHandler(event:ProjectItemClickEvent):void
+			{
+				this.mainViewStack.selectedChild = this.projectContent; 
+			}
+			
+			protected function leftmenu_leftMenuClickEventHandler(event:LeftMenuClickEvent):void
+			{
+				var lb:LinkBar = event.selectedItem as LinkBar;
+				var tg:String = (SonarxStringUtil.trim(((lb.dataProvider)[lb.selectedIndex]).label)).toLowerCase() + "Box";
+				this.mainViewStack.selectedChild = this[tg];
+			}
+
+		]]>
+	</fx:Script>
+	
+	<s:layout>
+		<s:HorizontalLayout horizontalAlign="left" 
+							paddingLeft="10" paddingRight="10" 
+							paddingTop="10" paddingBottom="10"/>
+	</s:layout>
+	<c:leftmenu  id="leftmenu" height="100%" width="10%" verticalAlign="top" leftMenuClick="leftmenu_leftMenuClickEventHandler(event)"/>
+	<mx:ViewStack id="mainViewStack" width="99%" height="100%">
+		<mx:HBox id="projectsContent">
+			<c:maincontent height="100%" width="100%" projectItemClick="projectItemClickHandler(event)"/>
+		</mx:HBox>
+		<mx:VBox id="projectContent">
+			<s:Label text="Version 2.1.0-SNAPSHOT - 2010年7月06日 星期二 20:40:32 UTC - profile Sonar for Sonar" height="5%" verticalAlign="middle"/>
+			<s:HGroup>
+				<s:VGroup width="40%" height="100%">
+					<i:javabaseComponent/>
+				</s:VGroup>
+				<s:VGroup width="40%" height="100%">
+					<i:findbugsComponent/>
+					<i:unittestComponent/>
+					<i:snapshotComponent/>
+				</s:VGroup>
+			</s:HGroup>
+		</mx:VBox>
+		<g:ProjectGroupBox id="projectgroupBox"/>
+		<g:MultiProjectBox id="multiprojectBox"/>
+		<g:UserBox id="userBox"/>
+	</mx:ViewStack>
+	<s:VGroup id="Radiator" height="100%" width="10%" >
+	</s:VGroup>
+</s:Group>

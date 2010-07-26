@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/console
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/server
+END
+dbconsole
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/dbconsole
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/generate
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sonarx/!svn/ver/10/trunk/source/sonarx/script/plugin
+END

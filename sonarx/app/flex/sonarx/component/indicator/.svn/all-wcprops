@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sonarx/!svn/ver/38/trunk/source/sonarx/app/flex/sonarx/component/indicator
+END
+findbugsComponent.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/38/trunk/source/sonarx/app/flex/sonarx/component/indicator/findbugsComponent.mxml
+END
+javabaseComponent.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/38/trunk/source/sonarx/app/flex/sonarx/component/indicator/javabaseComponent.mxml
+END
+snapshotComponent.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/38/trunk/source/sonarx/app/flex/sonarx/component/indicator/snapshotComponent.mxml
+END
+unittestComponent.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/38/trunk/source/sonarx/app/flex/sonarx/component/indicator/unittestComponent.mxml
+END

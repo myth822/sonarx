@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rubigen-1.5.5/generators/install_rubigen_scripts/templates/script
+END
+win_script.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rubigen-1.5.5/generators/install_rubigen_scripts/templates/script/win_script.cmd
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rubigen-1.5.5/generators/install_rubigen_scripts/templates/script/destroy
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rubigen-1.5.5/generators/install_rubigen_scripts/templates/script/generate
+END

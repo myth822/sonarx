@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/applications/app/scm
+END
+scm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/applications/app/scm/scm.rb
+END
+git.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/applications/app/scm/git.rb
+END
+svn.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/applications/app/scm/svn.rb
+END

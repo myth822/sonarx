@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+project_group_one:
+  id: <%= Fixtures.identify(:project_group_one) %>
+  group_name: ProjectGroup1GroupNameString
+  group_marking: ProjectGroup1GroupMarkingString
+  description: ProjectGroup1DescriptionText
+
+project_group_two:
+  id: <%= Fixtures.identify(:project_group_two) %>
+  group_name: ProjectGroup2GroupNameString
+  group_marking: ProjectGroup2GroupMarkingString
+  description: ProjectGroup2DescriptionText
+
+project_group_three:
+  id: <%= Fixtures.identify(:project_group_three) %>
+  group_name: ProjectGroup3GroupNameString
+  group_marking: ProjectGroup3GroupMarkingString
+  description: ProjectGroup3DescriptionText
+
+project_group_four:
+  id: <%= Fixtures.identify(:project_group_four) %>
+  group_name: ProjectGroup4GroupNameString
+  group_marking: ProjectGroup4GroupMarkingString
+  description: ProjectGroup4DescriptionText

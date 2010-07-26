@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake
+END
+classic_namespace.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/classic_namespace.rb
+END
+packagetask.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/packagetask.rb
+END
+ruby182_test_unit_fix.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/ruby182_test_unit_fix.rb
+END
+clean.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/clean.rb
+END
+testtask.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/testtask.rb
+END
+win32.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/win32.rb
+END
+alt_system.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/alt_system.rb
+END
+runtest.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/runtest.rb
+END
+gempackagetask.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/gempackagetask.rb
+END
+rake_test_loader.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/rake_test_loader.rb
+END
+tasklib.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/tasklib.rb
+END
+rdoctask.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rake-0.8.7/lib/rake/rdoctask.rb
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/mailer/templates
+END
+view.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/mailer/templates/view.rhtml
+END
+unit_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/mailer/templates/unit_test.rb
+END
+view.erb
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/mailer/templates/view.erb
+END
+fixture.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/mailer/templates/fixture.rhtml
+END
+mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/mailer/templates/mailer.rb
+END
+fixture.erb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/mailer/templates/fixture.erb
+END

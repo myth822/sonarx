@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/controller/templates
+END
+helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/controller/templates/helper_test.rb
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/controller/templates/helper.rb
+END
+functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/controller/templates/functional_test.rb
+END
+view.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/controller/templates/view.html.erb
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/controller/templates/controller.rb
+END

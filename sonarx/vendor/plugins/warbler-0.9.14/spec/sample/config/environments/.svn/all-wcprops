@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/spec/sample/config/environments
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/spec/sample/config/environments/test.rb
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/spec/sample/config/environments/development.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sonarx/!svn/ver/11/trunk/source/sonarx/vendor/plugins/warbler-0.9.14/spec/sample/config/environments/production.rb
+END

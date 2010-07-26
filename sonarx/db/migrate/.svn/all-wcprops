@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sonarx/!svn/ver/43/trunk/source/sonarx/db/migrate
+END
+20100715080908_add_column.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sonarx/!svn/ver/43/trunk/source/sonarx/db/migrate/20100715080908_add_column.rb
+END
+20100715081728_create_project_groups.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sonarx/!svn/ver/43/trunk/source/sonarx/db/migrate/20100715081728_create_project_groups.rb
+END
+20100715081726_create_projects.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sonarx/!svn/ver/43/trunk/source/sonarx/db/migrate/20100715081726_create_projects.rb
+END
+20100715025824_project_group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sonarx/!svn/ver/40/trunk/source/sonarx/db/migrate/20100715025824_project_group.rb
+END
+20100715081731_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sonarx/!svn/ver/43/trunk/source/sonarx/db/migrate/20100715081731_create_users.rb
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers/inflections.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers/session_store.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers/backtrace_silencers.rb
+END
+new_rails_defaults.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers/new_rails_defaults.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers/mime_types.rb
+END
+restfulx.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers/restfulx.rb
+END
+session_store_flash.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/config/initializers/session_store_flash.rb
+END

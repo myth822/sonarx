@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sonarx/!svn/ver/26/trunk/source/sonarx/test/unit/helpers
+END
+users_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/unit/helpers/users_helper_test.rb
+END
+project_groups_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sonarx/!svn/ver/26/trunk/source/sonarx/test/unit/helpers/project_groups_helper_test.rb
+END
+tasks_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/unit/helpers/tasks_helper_test.rb
+END
+notes_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/unit/helpers/notes_helper_test.rb
+END
+projects_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/unit/helpers/projects_helper_test.rb
+END
+locations_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sonarx/!svn/ver/12/trunk/source/sonarx/test/unit/helpers/locations_helper_test.rb
+END

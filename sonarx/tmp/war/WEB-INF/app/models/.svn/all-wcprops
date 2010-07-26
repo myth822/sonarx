@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/app/models/user.rb
+END
+task.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/app/models/task.rb
+END
+note.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/app/models/note.rb
+END
+project.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/app/models/project.rb
+END
+location.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/app/models/location.rb
+END

@@ -1,0 +1,76 @@
+10
+
+dir
+49
+https://samsung-myth/svn/sonarx/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-2.3.4/test/connections
+https://samsung-myth/svn/sonarx
+
+
+
+2010-07-01T10:08:28.343750Z
+27
+myth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d9d0a26c-0501-fd41-ba3c-e3ca678dad2d
+
+jdbc_jdbchsqldb
+dir
+
+native_frontbase
+dir
+
+jdbc_jdbcsqlite3
+dir
+
+native_sqlite3
+dir
+
+native_sybase
+dir
+
+native_firebird
+dir
+
+native_openbase
+dir
+
+native_sqlite
+dir
+
+jdbc_jdbcpostgresql
+dir
+
+native_postgresql
+dir
+
+jdbc_jdbcmysql
+dir
+
+jdbc_jdbcderby
+dir
+
+native_oracle
+dir
+
+native_mysql
+dir
+
+native_db2
+dir
+
+jdbc_jdbch2
+dir
+

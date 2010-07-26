@@ -1,0 +1,26 @@
+project:
+ - name: string
+ - description: string
+ - enabled: boolean
+ - category: string
+ - address: string
+ - username: string
+ - password: string
+ - version: string
+ - branch: string
+ - db_name: string
+ - db_connection: string
+ - belongs_to: [user]
+ - belongs_to: [project_group]
+
+project_group:
+ - group_name: string
+ - group_marking: string
+ - description: text
+ - has_many: [projects]
+
+user:
+ - login: string
+ - email: string
+ - crypted_password: string
+ - has_many: [projects]

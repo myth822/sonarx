@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/lib
+END
+jruby-stdlib-1.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/lib/jruby-stdlib-1.4.0.jar
+END
+restfulx-1.2.4.swc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/lib/restfulx-1.2.4.swc
+END
+jruby-core-1.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/lib/jruby-core-1.4.0.jar
+END
+jruby-rack-0.9.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/lib/jruby-rack-0.9.5.jar
+END

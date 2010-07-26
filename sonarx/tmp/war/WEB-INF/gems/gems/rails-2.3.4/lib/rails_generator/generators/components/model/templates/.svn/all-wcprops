@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/model/templates
+END
+unit_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/model/templates/unit_test.rb
+END
+model.rb
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/model/templates/model.rb
+END
+fixtures.yml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/model/templates/fixtures.yml
+END
+migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/rails-2.3.4/lib/rails_generator/generators/components/model/templates/migration.rb
+END

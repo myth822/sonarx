@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models
+END
+data_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/data_types.rb
+END
+entry.rb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/entry.rb
+END
+mixed_case.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/mixed_case.rb
+END
+string_id.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/string_id.rb
+END
+auto_id.rb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/auto_id.rb
+END
+validates_uniqueness_of_string.rb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/validates_uniqueness_of_string.rb
+END
+add_not_null_column_to_table.rb
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/add_not_null_column_to_table.rb
+END
+reserved_word.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/test/models/reserved_word.rb
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/test/rails/models
+END
+simple_property.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/test/rails/models/simple_property.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/test/rails/models/user.rb
+END
+task.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/test/rails/models/task.rb
+END
+note.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/test/rails/models/note.rb
+END
+project.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/test/rails/models/project.rb
+END
+location.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/test/rails/models/location.rb
+END

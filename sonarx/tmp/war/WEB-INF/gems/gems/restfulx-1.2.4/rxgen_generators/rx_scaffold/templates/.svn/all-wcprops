@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rxgen_generators/rx_scaffold/templates
+END
+controller.py.erb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rxgen_generators/rx_scaffold/templates/controller.py.erb
+END
+model.as.erb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rxgen_generators/rx_scaffold/templates/model.as.erb
+END
+model.py.erb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/rxgen_generators/rx_scaffold/templates/model.py.erb
+END

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+@langversion 3.0
+@playerversion Flash 10
+@playerversion AIR 1.5
+@productversion Flex 4
+-->
+<s:SparkSkin xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" 
+			 xmlns:mx="library://ns.adobe.com/flex/mx"
+			 minWidth="21" minHeight="21"
+			 alpha.disabled="0.5">
+	
+	<!-- host component -->
+	<fx:Metadata>
+		<![CDATA[ 
+		/** 
+		* @copy spark.skins.spark.ApplicationSkin#hostComponent
+		*/
+		[HostComponent("spark.components.TextInput")]
+		]]>
+	</fx:Metadata>
+
+	<!-- states -->
+	<s:states>
+		<s:State name="normal" />
+		<s:State name="disabled" />
+	</s:states>
+	
+	<!-- icon/symbol layer -->
+	<s:Group id="symbol" left="0" top="4" right="2" bottom="3">
+		<s:filters>
+			<s:DropShadowFilter alpha="0.5" blurX="0" blurY="0" distance="1" />
+		</s:filters> 
+		<mx:LinkButton icon="@Embed('sonarx/assets/search_icon.png')" width.normal="31"/>
+	</s:Group>
+	
+	<!-- layer 8: text -->
+	<s:Group id="textGroup" top="4" left="30" bottom="3">
+		<s:filters>
+			<s:DropShadowFilter alpha="0.5" blurX="0" blurY="0" distance="1" />
+		</s:filters>  
+		<s:TextInput x.normal="2" y.normal="0"/>
+	</s:Group>
+</s:SparkSkin>

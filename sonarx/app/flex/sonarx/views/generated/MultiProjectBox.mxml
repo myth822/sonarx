@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 width="100%" label="MultiProject"
+		 xmlns:rx="org.restfulx.components.rx.*" creationComplete="reloadProjects()">
+	<fx:Script><![CDATA[
+		import mx.collections.ArrayCollection;
+		import mx.controls.Alert;
+		import mx.events.ListEvent;
+		
+		import org.restfulx.Rx;
+		import org.restfulx.collections.ModelsCollection;
+		import org.restfulx.utils.RxUtils;
+		
+		import sonarx.models.Project;
+		import sonarx.models.ProjectGroup;
+		import sonarx.utils.SonarxValidatorUtil;
+		
+		[Bindable]
+		private var project:Project = new Project();
+		
+		public var categorys:ArrayCollection = new ArrayCollection(
+			[ {label:"Dimenssion", data:"Dimenssion"}, 
+				{label:"Subversion", data:"Subversion"} ]);
+		
+		private function newProject():void {
+			project = new Project();
+			myADG.selectedIndex = -1;
+		}
+		
+		private function saveProject():void {
+			if (! validateForm()) {
+				return;
+			}
+			
+			updateModelProperties();
+			if (project.id) {
+				project.update({onSuccess: onProjectUpdate});
+			} else {
+				project.create({onSuccess: onProjectCreate});
+			}
+		}
+		
+		private function validateForm():Boolean {
+			if (! SonarxValidatorUtil.validateFormItem(nti) 
+				|| ! SonarxValidatorUtil.validateFormItem(dt) 
+				|| ! SonarxValidatorUtil.validateFormItem(uti)
+				|| ! SonarxValidatorUtil.validateFormItem(pti)
+				|| ! SonarxValidatorUtil.validateFormItem(vti)
+				|| ! SonarxValidatorUtil.validateFormItem(bti)
+				|| ! SonarxValidatorUtil.validateFormItem(ati)
+				|| (this.currentState == "Dimenssion" && 
+				(! SonarxValidatorUtil.validateFormItem(dnti)
+				|| ! SonarxValidatorUtil.validateFormItem(dcti)))) {
+				return false;
+			}
+			return true;
+		}
+		
+		private function updateModelProperties():void {
+			project.name = nameTextInput.text;
+			project.description = descriptionTextArea.text;
+			project.enabled = enabledCheckBox.selected;
+			project.category = categoryComboBox.selectedItem.data;
+			project.address = addressTextInput.text;
+			project.username = usernameTextInput.text;
+			project.password = passwordTextInput.text;
+			project.version = versionTextInput.text;
+			project.branch = branchTextInput.text;
+			project.dbName = dbNameTextInput.text;
+			project.dbConnection = dbConnectionTextInput.text;
+			
+			project.projectGroup = ProjectGroup(projectGroupComboBox.selectedItem);
+		}
+		
+		private function destroyProject():void {
+			project.destroy({onSuccess: onProjectDestroy});
+		}
+		
+		private function onProjectSelect():void {
+			if (myADG.selectedItem as Project) {
+				project = RxUtils.clone(myADG.selectedItem) as Project;
+				
+				var array:ArrayCollection = ArrayCollection(categoryComboBox.dataProvider);
+				for (var o:Object in array) {
+					if (array[o].data == project.category) {
+						categoryComboBox.selectedIndex = Number(o) ;
+						break;
+					}
+				}
+				
+				this.currentState = project.category;
+			}
+		}
+		
+		private function onProjectCreate(result:Project):void {
+			project = new Project;
+		}
+		
+		private function onProjectUpdate(result:Project):void {
+			myADG.selectedItem = result;
+			onProjectSelect();
+		}
+		
+		private function onProjectDestroy(result:Project):void {
+			onProjectCreate(result);
+		}
+		
+		private function groupFunc(item:Object, field:GroupingField):String {
+			if (item[field.name] == null) {
+				return "Default";
+			}
+			return item[field.name];
+		}
+		
+		private function indexInit():ModelsCollection {
+			
+			//return Rx.models.index(Project, {metadata:{category:'dim'}});
+			return Rx.models.index(Project);
+		}
+		
+		private function reloadProjects():void {
+			//Rx.models.reload(Project, {metadata:{category:'dim'}, append:true});
+			Rx.models.reload(Project, {append:true});
+		}
+
+		protected function categoryComboBox_changeHandler(event:ListEvent):void
+		{
+			this.currentState = ComboBox(event.target).selectedItem.label;
+		}
+
+	]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<mx:StringValidator id="nti" source="{nameTextInput}" property="text" minLength="4" maxLength="40"/>
+		<mx:StringValidator id="dt" source="{descriptionTextArea}" property="text" minLength="4" maxLength="200"/>
+		<mx:StringValidator id="uti" source="{usernameTextInput}" property="text" minLength="4" maxLength="40"/>
+		<mx:StringValidator id="pti" source="{passwordTextInput}" property="text" minLength="4" maxLength="40"/>
+		<mx:StringValidator id="vti" source="{versionTextInput}" property="text" minLength="1" maxLength="40"/>
+		<mx:StringValidator id="bti" source="{branchTextInput}" property="text" minLength="1" maxLength="40"/>
+		<mx:StringValidator id="dnti" source="{dbNameTextInput}" property="text" minLength="1" maxLength="40"/>
+		<mx:StringValidator id="dcti" source="{dbConnectionTextInput}" property="text" minLength="1" maxLength="40"/>
+		<mx:RegExpValidator id="ati" source="{addressTextInput}" property="text" flags="g" 
+							expression="\d+\.\d+\.\d+\.\d+" noMatchError="请输入IP地址"/>
+		<mx:DateFormatter id="dateFormatter" formatString="YYYY-MM-DD JJ:NN:SS"/>
+	</fx:Declarations>
+	
+	<mx:states> 
+		<mx:State name="Dimenssion"/>    
+		<mx:State name="Subversion"/> 
+	</mx:states>
+	
+	<s:Panel title="Project" cornerRadius="0" 
+			  backgroundColor="#EEEEEE"  width="65%" height="100%">
+		<s:layout>
+			<s:VerticalLayout horizontalAlign="left" 
+							  paddingLeft="10" paddingRight="10" 
+							  paddingTop="10" paddingBottom="10"/>
+		</s:layout>
+		<mx:AdvancedDataGrid id="myADG" width="100%" height="100%" color="0x323232" 
+							 defaultLeafIcon="{null}" itemClick="onProjectSelect()">        
+			<mx:dataProvider>
+				<mx:GroupingCollection2 id="gc" source="{indexInit()}">
+					<mx:Grouping>
+						<mx:GroupingField name="projectGroup" groupingFunction="groupFunc"/>
+					</mx:Grouping>
+				</mx:GroupingCollection2>
+			</mx:dataProvider>
+			
+			<mx:columns>
+				<mx:AdvancedDataGridColumn dataField="name" headerText="Name" width="200"/>
+				<mx:AdvancedDataGridColumn dataField="category" headerText="Category" width="120"/>
+				<mx:AdvancedDataGridColumn dataField="version" headerText="Version" width="120"/>
+				<mx:AdvancedDataGridColumn dataField="address" headerText="URL" width="300"/>
+				<mx:AdvancedDataGridColumn headerText="Update Date"  width="180">
+					<mx:itemRenderer>
+						<fx:Component>
+							<s:MXAdvancedDataGridItemRenderer>
+								<fx:Declarations>
+									<mx:DateFormatter id="dateFormatter" formatString="YYYY-MM-DD JJ:NN:SS"/>
+								</fx:Declarations>
+								<s:Label id="lblData" top="5" left="5" right="0" bottom="0" text="{dateFormatter.format(data.updatedAt)}" />
+							</s:MXAdvancedDataGridItemRenderer>
+						</fx:Component>
+					</mx:itemRenderer>
+				</mx:AdvancedDataGridColumn>
+				<mx:AdvancedDataGridColumn headerText="" width="60">
+					<mx:itemRenderer>
+						<fx:Component>
+							<mx:HBox horizontalAlign="center" 
+									 creationComplete="creationCompleteHandler()">
+								<fx:Script>
+									<![CDATA[
+										import mx.controls.Image;
+										import mx.events.FlexEvent;
+										
+										import org.restfulx.models.RxModel;
+										
+										protected function creationCompleteHandler():void
+										{
+											var image:Image = new Image();
+											image.source = 'sonarx/assets/run1_icon_16.png';
+											this.addChild(image);
+										}
+									]]>
+								</fx:Script>
+							</mx:HBox>
+						</fx:Component>
+					</mx:itemRenderer>
+				</mx:AdvancedDataGridColumn>	
+			</mx:columns>
+		</mx:AdvancedDataGrid>
+		<s:HGroup>
+			<mx:Button label="New" click="newProject()" icon="@Embed(source='../../assets/new_icon_16.png')"/>
+			<mx:Button label="Reload" click="reloadProjects()" icon="@Embed(source='../../assets/reload_icon_16.png')"/>
+		</s:HGroup>	
+	</s:Panel>
+	<s:Panel title="Edit Project" cornerRadius="0" 
+			  backgroundColor="#EEEEEE" width="35%" height="100%">
+		<s:layout>
+			<s:VerticalLayout horizontalAlign="left" 
+							  paddingLeft="10" paddingRight="10" 
+							  paddingTop="10" paddingBottom="10"/>
+		</s:layout>
+		<mx:Form width="100%" height="100%">
+			<s:VGroup width="20%">
+				<mx:FormItem label="Category     :">
+					<mx:ComboBox id="categoryComboBox" width="120" selectedIndex="0"
+								 change="categoryComboBox_changeHandler(event)"
+								 dataProvider="{categorys}" selectedItem="{project.category}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Name          :">
+					<mx:TextInput id="nameTextInput" text="{project.name}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Description:">
+					<mx:TextArea id="descriptionTextArea" height="100" text="{project.description}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Enabled     :">
+					<mx:CheckBox id="enabledCheckBox" selected="{project.enabled}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Username :">
+					<mx:TextInput id="usernameTextInput" text="{project.username}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Password  :">
+					<mx:TextInput id="passwordTextInput" text="{project.password}" displayAsPassword="true"/>
+				</mx:FormItem>
+				<mx:FormItem label="Version       :">
+					<mx:TextInput id="versionTextInput" text="{project.version}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Branch        :">
+					<mx:TextInput id="branchTextInput" text="{project.branch}"/>
+				</mx:FormItem>
+				<mx:FormItem label="DB Name   :" includeIn="Dimenssion">
+					<mx:TextInput id="dbNameTextInput" text="{project.dbName}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Connection:" includeIn="Dimenssion">
+					<mx:TextInput id="dbConnectionTextInput" text="{project.dbConnection}"/>
+				</mx:FormItem>	
+				<mx:FormItem label="Address      :">
+					<mx:TextInput id="addressTextInput" width="200" text="{project.address}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Group          :">
+					<mx:ComboBox id="projectGroupComboBox" width="120"
+								 labelField="{ProjectGroup.LABEL}"
+								 dataProvider="{Rx.models.index(ProjectGroup)}"
+								 selectedItem="{project.projectGroup}" selectedIndex="0"/>
+				</mx:FormItem>
+			</s:VGroup>
+		</mx:Form>
+		<s:HGroup>
+			<mx:Button label="Save" click="saveProject()" icon="@Embed(source='../../assets/save_icon_16.png')"/>
+			<mx:Button label="Delete" enabled="{RxUtils.canDeleteModel(project)}"
+					   click="destroyProject()" icon="@Embed(source='../../assets/delete_icon_16.png')"/>
+		</s:HGroup>	
+	</s:Panel>
+</mx:HBox>

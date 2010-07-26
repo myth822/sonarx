@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:VGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx"
+		  xmlns:c="sonarx.component.project.*">
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			
+			[Bindable]public var cards:ArrayCollection = new ArrayCollection(
+				[ {label:"Visa", data:1}, 
+					{label:"MasterCard", data:2}, 
+					{label:"American Express", data:3} ]);
+			
+			private function changeHandler(event:Event):void {
+				
+			}     
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:HGroup>
+		<s:VGroup>
+			<s:Label width="200" color="0x336699" text="Select credit card type:"/>
+			<s:ComboBox dataProvider="{cards}" width="150" color="0x000000"
+						change="changeHandler(event);" selectedIndex="0"/>
+		</s:VGroup>
+		<mx:Spacer width="10%"/>
+		<s:VGroup>
+			<s:HGroup>
+				<s:Label color="0x336699" text="Color: 0.0% "/>
+				<mx:Image id="embededImage" source="@Embed('sonarx/assets/treemap_gradient.png')"/>
+				<s:Label color="0x336699" text=" 100.0%"/>
+			</s:HGroup>
+			<s:ComboBox dataProvider="{cards}" width="150" color="0x000000"
+						change="changeHandler(event);" selectedIndex="0"/>
+		</s:VGroup>
+	</s:HGroup>
+	<c:treemapComponent/>
+	
+</s:VGroup>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/arel/engines/sql/compilers
+END
+derby_compiler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/arel/engines/sql/compilers/derby_compiler.rb
+END
+db2_compiler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/arel/engines/sql/compilers/db2_compiler.rb
+END
+h2_compiler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/arel/engines/sql/compilers/h2_compiler.rb
+END
+hsqldb_compiler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/arel/engines/sql/compilers/hsqldb_compiler.rb
+END
+jdbc_compiler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activerecord-jdbc-adapter-0.9.7-java/lib/arel/engines/sql/compilers/jdbc_compiler.rb
+END

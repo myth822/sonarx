@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/index.html.erb
+END
+mainapp-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/mainapp-config.xml
+END
+app.yaml.erb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/app.yaml.erb
+END
+flex.properties
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/flex.properties
+END
+actionscriptair.properties
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/actionscriptair.properties
+END
+generate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/generate.rb
+END
+mainair-app.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/mainair-app.xml
+END
+actionscript.properties
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/actionscript.properties
+END
+projectair.properties
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/projectair.properties
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/project.properties
+END
+mainapp.mxml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/mainapp.mxml
+END
+swfobject.js
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/swfobject.js
+END
+project-textmate.erb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/project-textmate.erb
+END
+index.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/index.yaml
+END
+default_tasks.rake
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/default_tasks.rake
+END
+empty.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/empty.txt
+END
+restfulx.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/restfulx.yml
+END
+expressInstall.swf
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/restfulx-1.2.4/app_generators/rx_app/templates/expressInstall.swf
+END

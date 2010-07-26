@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/lib/active_resource/formats
+END
+json_format.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/lib/active_resource/formats/json_format.rb
+END
+xml_format.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/sonarx/!svn/ver/27/trunk/source/sonarx/tmp/war/WEB-INF/gems/gems/activeresource-2.3.4/lib/active_resource/formats/xml_format.rb
+END

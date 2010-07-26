@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+user_one:
+  id: <%= Fixtures.identify(:user_one) %>
+  login: User1LoginString
+  email: User1EmailString
+  crypted_password: User1CryptedPasswordString
+
+user_two:
+  id: <%= Fixtures.identify(:user_two) %>
+  login: User2LoginString
+  email: User2EmailString
+  crypted_password: User2CryptedPasswordString
+
+user_three:
+  id: <%= Fixtures.identify(:user_three) %>
+  login: User3LoginString
+  email: User3EmailString
+  crypted_password: User3CryptedPasswordString
+
+user_four:
+  id: <%= Fixtures.identify(:user_four) %>
+  login: User4LoginString
+  email: User4EmailString
+  crypted_password: User4CryptedPasswordString
